@@ -53,6 +53,25 @@ SELECT name, no_of_rooms FROM hostel
 ORDER BY no_of_rooms DESC;
 
 
+/* 
+LIMIT 
+*/
+
+/* Retrive the first 3 hostels from the table */
+SELECT * FROM hostel
+LIMIT 3;
+
+/* Retrive name and capacity of top 2 hostels with highest capacity */
+SELECT name, capacity FROM hostel
+ORDER BY capacity DESC
+LIMIT 2;
+
+/* Retrive top 1 Boys hostel based on room count */
+SELECT name, no_of_rooms FROM hostel
+WHERE hostel_type = 'Boys'
+ORDER BY no_of_rooms DESC
+LIMIT 1;
+
 
 
 
