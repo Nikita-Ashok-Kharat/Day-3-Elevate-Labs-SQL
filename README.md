@@ -3,7 +3,7 @@ SQL Developer Internship - Day 3 Task
 
 ## Task Overview
 
-The Day 3 task focuses on writing SQL queries using basic operations like `SELECT`, `WHERE`, `ORDER BY`, and `LIMIT`. 
+This task focuses on writing SQL queries using basic operations like `SELECT`, `WHERE`, `ORDER BY`, and `LIMIT`. 
 These queries are applied to the `hostel` table of the Hostel Management System database.
 
 ---
